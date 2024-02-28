@@ -1,0 +1,5 @@
+listaDepartamentos=[]
+
+const cargarDepartamentos= ()=>{
+    
+}
