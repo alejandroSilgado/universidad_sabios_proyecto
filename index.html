@@ -7,7 +7,7 @@
     <link rel="icon" href="images/logo_universidad.png" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" media="all" href="css/bakground.css" />
-
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />    
     <title>UDS</title>
 </head>
 
@@ -20,17 +20,17 @@
             <div class="content">
                 <div class="logo"><a href="#">UDS</a></div>
                 <ul class="links">
-                    <li><a href="#">Inicio</a></li>
-                    <li><a href="#">Quienes somos</a></li>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="pages/quienesSomos.html">Quienes somos</a></li>
                     <li>
                         <a href="#" class="desktop-link">Personas</a>
                         <input type="checkbox" id="mostar-datos">
                         <label for="mostar-datos">Datos</label>
                         <ul>
                             <li><a href="pages/personas.html">Alumnos</a></li>
-                            <li><a href="#">Profesores</a></li>
-                            <li><a href="#">Tarifas</a></li>
-                            <li><a href="#">Matriculas</a></li>
+                            <li><a href="pages/profesores.html">Profesores</a></li>
+                            <li><a href="pages/tarifas.html">Tarifas</a></li>
+                            <li><a href="pages/matriculas.html">Matriculas</a></li>
                         </ul>
 
                     </li>
@@ -40,16 +40,16 @@
                         <label for="show-services"></label>
                         <ul>
                             <li><a href="pages/departamentos.html">Departamentos</a></li>
-                            <li><a href="pa">Asignaturas</a></li>
-                            <li><a href="#">Programas</a></li>
+                            <li><a href="pages/asignaturas.html">Asignaturas</a></li>
+                            <li><a href="pages/programas.html">Programas</a></li>
                             <li>
                                 <a href="#" class="desktop-link">Ver Mas</a>
                                 <input type="checkbox" id="show-items">
                                 <label for="show-items">Mas...</label>
                                 <ul>
-                                        <li><a href="#">Periodos</a></li>
-                                        <li><a href="#">Cursos</a></li>
-                                        <li><a href="#">Asignaturas</a></li>
+                                        <li><a href="pages/periodos.html">Periodos</a></li>
+                                        <li><a href="pages/cursos.html">Cursos</a></li>
+                                        <li><a href="pages/asignaturas.html">Asignaturas</a></li>
                                 </ul>
                             </li>
                         </ul>
@@ -64,8 +64,23 @@
             </form>
         </nav>
     </div>
-    <h1>pagina principal 
-    </h1>
+    <main>
+        <section class="presentacion-UDS">
+            <div id="left">
+                <h2 >¡Bienvenidos!</h2>
+                <h1 > Universidad De Los Sabios</h1>
+                <p>Somos una Universidad de un prestigio internacional
+                    y nuestros egresados son caracterizados como los estudiantes 
+                    "Sabios", ya que por medio de nuestro novedoso sistema de eduacion
+                    preparamos a los mejores profesionales.
+                </p>
+                <button>¿Que esperas unete?</button>
+            </div>
+            <div id="right">
+                <img src="images/logo_universidad1.png">
+            </div>
+        </section>
+    </main>
     <script src="https://kit.fontawesome.com/675392fb36.js" crossorigin="anonymous"></script>
     <script src="js/departamentos.js"></script>
     <script src="js/personas.js"></script>

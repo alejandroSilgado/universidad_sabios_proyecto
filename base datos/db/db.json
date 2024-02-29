@@ -43,8 +43,24 @@
       "nombre": "Departamento de Matemáticas"
     },
     {
-      "id": 3,
+      "id": "3",
       "nombre": "Departamento de CIvil"
+    },
+    {
+      "id": 4,
+      "nombre": "Departamento De Quimica"
+    },
+    {
+      "id": 5,
+      "nombre": "Departamento De Fisica"
+    },
+    {
+      "id": 6,
+      "nombre": "Departamento De Cocina"
+    },
+    {
+      "id": 7,
+      "nombre": "Departamento De Fotografia"
     }
   ],
   "profesores": [

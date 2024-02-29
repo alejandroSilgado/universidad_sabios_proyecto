@@ -248,22 +248,44 @@ nav .content .links{
 }
 
 main {
-    display: flex;
-    justify-content: space-around;
-    padding: 1em;
+  display: flex;
+  justify-content: space-around;
+  padding: 1em;
 }
 
-section {
-    background: rgba( 239, 255, 111, 0.5 );
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-    backdrop-filter: blur( 0.5px );
-    -webkit-backdrop-filter: blur( 3px );
-    border-radius: 10px;
-    border: 1px solid rgba( 255, 255, 255, 0.18 );
-    margin-top: 20%;
-    padding: 1em;
-    width: 30%;
+section.caja-form {
+  background: rgba( 239, 255, 111, 0.5 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 0.5px );
+  -webkit-backdrop-filter: blur( 3px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  margin-top: 20%; 
+  padding: 1em;
+  width: 30%;
 }
+
+section.presentacion-UDS {
+  margin-top: 10%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+section.logos{
+  background-color:#efff6f;
+  height: 100%;
+}
+#right {
+  align-self: flex-start; 
+}
+h1{
+  text-shadow: black;
+  font-size: 4.5rem;
+}
+p{
+  font-size: 1.3rem;
+}
+
 
 
 form {
