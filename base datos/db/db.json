@@ -47,20 +47,24 @@
       "nombre": "Departamento de CIvil"
     },
     {
-      "id": 4,
+      "id": "4",
       "nombre": "Departamento De Quimica"
     },
     {
-      "id": 5,
+      "id": "5",
       "nombre": "Departamento De Fisica"
     },
     {
-      "id": 6,
+      "id": "6",
       "nombre": "Departamento De Cocina"
     },
     {
-      "id": 7,
+      "id": "7",
       "nombre": "Departamento De Fotografia"
+    },
+    {
+      "id": 8,
+      "nombre": "asdsadasd"
     }
   ],
   "profesores": [
